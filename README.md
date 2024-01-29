@@ -7,14 +7,16 @@
 # 关于代码的运行
 1. 在 ubuntu 中安装以下依赖
 ```bash
-apt install fontforge
-apt install python3-fontforge
+sudo apt install fontforge python3-fontforge
 ```
 
 2. 在 pip 中安装以下依赖
 ```bash
-pip3 install wget
-pip3 install py7zr
+pip3 install wget py7zr
+```
+   或在 Ubuntu 中安装
+```bash
+sudo apt install python3-wget python3-py7zr
 ```
 
 3. 运行入口文件
@@ -35,3 +37,8 @@ TEMP_DIR  # 临时目录
 RESULT_DIR  # 结果目录
 OTHER_COPY  # 你想复制的其他文件到结果目录
 ```
+
+# 关于修改说明
+相较于原版的项目，把更纱黑体的 Semibold 作为微软雅黑 Regular 字体，因此显示上更粗
+生成字体结束后会清空临时目录
+
