@@ -41,4 +41,4 @@ OTHER_COPY  # 你想复制的其他文件到结果目录
 # 关于修改说明
 相较于原版的项目，把更纱黑体的 Semibold 作为微软雅黑 Regular 字体，因此显示上更粗，生成字体结束后会清空临时目录
 ![Regular](/img/regular.png "Regular")
-![Semibold](/img/Semibold.png "Semibold")
+![Semibold](/img/semibold.png "Semibold")
