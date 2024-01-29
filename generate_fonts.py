@@ -23,17 +23,19 @@ def set_regular_names(font):
     font.fontname = 'MicrosoftYaHei'
     font.familyname = 'Microsoft YaHei'
     font.fullname = 'Microsoft YaHei'
+    font.os2_weight = 400
     font.version = get_version(font)
     font.copyright = conf.COPYRIGHT
     font.sfnt_names = (
         ('English (US)', 'Family', 'Microsoft YaHei'),
         ('English (US)', 'Fullname', 'Microsoft YaHei'),
-        ('English (US)', 'UniqueID', 'Microsoft YaHei'),
+        ('English (US)', 'UniqueID', 'Microsoft YaHei Regular'),
         ('English (US)', 'SubFamily', 'Regular'),
         ('English (US)', 'Version', get_version(font)),
         ('English (US)', 'Copyright', conf.COPYRIGHT),
         ('Chinese (PRC)', 'Family', '微软雅黑'),
-        ('Chinese (PRC)', 'Fullname', '微软雅黑')
+        ('Chinese (PRC)', 'Fullname', '微软雅黑'),
+        ('Chinese (PRC)', 'UniqueID', '微软雅黑 Regular')
     )
 
 
@@ -41,53 +43,59 @@ def set_regular_ui_names(font):
     font.fontname = 'MicrosoftYaHeiUI'
     font.familyname = 'Microsoft YaHei UI'
     font.fullname = 'Microsoft YaHei UI'
+    font.os2_weight = 400
     font.version = get_version(font)
     font.copyright = conf.COPYRIGHT
     font.sfnt_names = (
         ('English (US)', 'Family', 'Microsoft YaHei UI'),
         ('English (US)', 'Fullname', 'Microsoft YaHei UI'),
-        ('English (US)', 'UniqueID', 'Microsoft YaHei UI'),
+        ('English (US)', 'UniqueID', 'Microsoft YaHei UI Regular'),
         ('English (US)', 'SubFamily', 'Regular'),
         ('English (US)', 'Version', get_version(font)),
         ('English (US)', 'Copyright', conf.COPYRIGHT),
         ('Chinese (PRC)', 'Family', '微软雅黑 UI'),
-        ('Chinese (PRC)', 'Fullname', '微软雅黑 UI')
+        ('Chinese (PRC)', 'Fullname', '微软雅黑 UI'),
+        ('Chinese (PRC)', 'UniqueID', 'Microsoft Yahei UI Regular')
     )
 
 
 def set_bold_names(font):
-    font.fontname = 'MicrosoftYaHeiBold'
+    font.fontname = 'MicrosoftYaHei-Bold'
     font.familyname = 'Microsoft YaHei'
     font.fullname = 'Microsoft YaHei Bold'
+    font.os2_weight = 700
     font.version = get_version(font)
     font.copyright = conf.COPYRIGHT
     font.sfnt_names = (
         ('English (US)', 'Family', 'Microsoft YaHei'),
         ('English (US)', 'Fullname', 'Microsoft YaHei Bold'),
-        ('English (US)', 'UniqueID', 'Microsoft YaHei Bold'),
+        ('English (US)', 'UniqueID', 'Microsoft YaHei-Bold'),
         ('English (US)', 'SubFamily', 'Bold'),
         ('English (US)', 'Version', get_version(font)),
         ('English (US)', 'Copyright', conf.COPYRIGHT),
         ('Chinese (PRC)', 'Family', '微软雅黑'),
-        ('Chinese (PRC)', 'Fullname', '微软雅黑 Bold')
+        ('Chinese (PRC)', 'Fullname', '微软雅黑 Bold'),
+        ('Chinese (PRC)', 'UniqueID', '微软雅黑-Bold')
     )
 
 
 def set_bold_ui_names(font):
-    font.fontname = 'MicrosoftYaHeiUIBold'
+    font.fontname = 'MicrosoftYaHeiUI-Bold'
     font.familyname = 'Microsoft YaHei UI'
     font.fullname = 'Microsoft YaHei UI Bold'
+    font.os2_weight = 700
     font.version = get_version(font)
     font.copyright = conf.COPYRIGHT
     font.sfnt_names = (
         ('English (US)', 'Family', 'Microsoft YaHei UI'),
         ('English (US)', 'Fullname', 'Microsoft YaHei UI Bold'),
-        ('English (US)', 'UniqueID', 'Microsoft YaHei UI Bold'),
+        ('English (US)', 'UniqueID', 'Microsoft YaHei UI-Bold'),
         ('English (US)', 'SubFamily', 'Bold'),
         ('English (US)', 'Version', get_version(font)),
         ('English (US)', 'Copyright', conf.COPYRIGHT),
         ('Chinese (PRC)', 'Family', '微软雅黑 UI'),
-        ('Chinese (PRC)', 'Fullname', '微软雅黑 UI Bold')
+        ('Chinese (PRC)', 'Fullname', 'Microsoft YaHei UI Bold'),
+        ('Chinese (PRC)', 'UniqueID', 'Microsoft YaHei UI Bold')
     )
 
 
@@ -95,6 +103,7 @@ def set_light_names(font):
     font.fontname = 'MicrosoftYaHeiLight'
     font.familyname = 'Microsoft YaHei'
     font.fullname = 'Microsoft YaHei Light'
+    font.os2_weight = 300
     font.version = get_version(font)
     font.copyright = conf.COPYRIGHT
     font.sfnt_names = (
@@ -105,7 +114,8 @@ def set_light_names(font):
         ('English (US)', 'Version', get_version(font)),
         ('English (US)', 'Copyright', conf.COPYRIGHT),
         ('Chinese (PRC)', 'Family', '微软雅黑'),
-        ('Chinese (PRC)', 'Fullname', '微软雅黑 Light')
+        ('Chinese (PRC)', 'Fullname', '微软雅黑 Light'),
+        ('Chinese (PRC)', 'UniqueID', '微软雅黑 Light')
     )
 
 
@@ -113,6 +123,7 @@ def set_light_ui_names(font):
     font.fontname = 'MicrosoftYaHeiUILight'
     font.familyname = 'Microsoft YaHei UI'
     font.fullname = 'Microsoft YaHei UI Light'
+    font.os2_weight = 300
     font.version = get_version(font)
     font.copyright = conf.COPYRIGHT
     font.sfnt_names = (
@@ -123,7 +134,8 @@ def set_light_ui_names(font):
         ('English (US)', 'Version', get_version(font)),
         ('English (US)', 'Copyright', conf.COPYRIGHT),
         ('Chinese (PRC)', 'Family', '微软雅黑 UI'),
-        ('Chinese (PRC)', 'Fullname', '微软雅黑 UI Light')
+        ('Chinese (PRC)', 'Fullname', 'Microsoft YaHei UI Light'),
+        ('Chinese (PRC)', 'UniqueID', 'Microsoft YaHei UI Light')
     )
 
 

@@ -23,6 +23,7 @@ def set_simsun_names(font):
     font.fontname = 'SimSun'
     font.familyname = 'SimSun'
     font.fullname = 'SimSun'
+    font.os2_weight = 400
     font.version = get_version(font)
     font.copyright = conf.COPYRIGHT
     font.sfnt_names = (
@@ -42,6 +43,7 @@ def set_new_simsun_names(font):
     font.fontname = 'NSimSun'
     font.familyname = 'NSimSun'
     font.fullname = 'NSimSun'
+    font.os2_weight = 400
     font.version = get_version(font)
     font.copyright = conf.COPYRIGHT
     font.sfnt_names = (
@@ -61,6 +63,7 @@ def set_simsun_ext_names(font):
     font.fontname = 'SimSun-ExtB'
     font.familyname = 'SimSun-ExtB'
     font.fullname = 'SimSun-ExtB'
+    font.os2_weight = 400
     font.version = get_version(font)
     font.copyright = conf.COPYRIGHT
     font.sfnt_names = (

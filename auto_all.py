@@ -26,4 +26,6 @@ if __name__ == '__main__':
     simsun.gen_simsun_ext()
     print('========> Simsun ext generated')
     copy.copy_result()
-    print('========> Copy Finished')
+    print('========> Copy finished')
+    fetch.clear_dir(conf.TEMP_DIR)
+    print('========> Temp folder cleared')
