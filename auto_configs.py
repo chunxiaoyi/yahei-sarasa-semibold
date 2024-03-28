@@ -1,6 +1,6 @@
 HINTED = True  # 是否下载 Hinted 版本
 
-Regular_SOURCE = 'SarasaUiSC-Regular'  # 标准字体来源的文件名
+REGULAR_SOURCE = 'SarasaUiSC-Regular'  # 标准字体来源的文件名
 BOLD_SOURCE = 'SarasaUiSC-Bold'  # 粗体来源的文件名
 LIGHT_SOURCE = 'SarasaUiSC-Light'  # 细体来源的文件名
 SIMSUN_SOURCE = 'SarasaUiSC-Regular'  # 宋体来源的文件名
